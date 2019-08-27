@@ -1,7 +1,7 @@
 import { Pool } from 'pg';
 import sql from 'sql-template-strings';
 import faker from 'faker';
-import addMinutes from 'date-fns/add_minutes';
+import addMinutes from 'date-fns/addMinutes';
 import { resetDb as envResetDb, fakedDb } from './env';
 
 export type User = {
